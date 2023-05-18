@@ -10,7 +10,7 @@ import json
 import sys
 k= 1.0
 from simple_pid import PID
-client = MongoClient("mongodb+srv://mugilanmourougayen:<YRBwLwWq2OnY1sgt>@cluster0.kj6zj5b.mongodb.net/")
+client = MongoClient("mongodb+srv://mugilan:mugilan@cluster0.dosw1iz.mongodb.net/")
 db = client.mydatabase
 collection = db.mycollection
 
