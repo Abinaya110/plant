@@ -176,7 +176,7 @@ def print_all():
 
 @app.route('/')
 def execute_other_file():
-    result = subprocess.check_output(['python', 'other_file.py'])
+    result = subprocess.check_output(['python', 'server.py'])
     return result
 
 
